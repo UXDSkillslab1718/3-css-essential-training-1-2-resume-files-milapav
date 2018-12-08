@@ -1,0 +1,51 @@
+/* Color Palette
+#780116 - bordo
+#F7B538 - softYellow
+#773344 - dirtyLilac
+#E3B5A4 - skinPink
+#F5E9E2 - whiteish
+#0B0014 - deepViolet
+#6B0132 - brightPurple
+
+#FF6542 - niceOrange
+#88498F - niceViolet
+#83EAB3 - turquois
+#FFE1AD - softerYellow
+*/
+
+/* Global styles
+------------------------------------*/
+body {
+    background:white;
+}
+main {
+  background:#F5E9E2;
+}
+header, footer{
+  background:#E3B5A4
+}
+h1{
+  color:#6B0132
+}
+.demo{
+  color:#6B0132
+}
+#demo{
+  color:#773344
+}
+a:hover{
+  color:#83EAB3
+}
+
+/* Header & Footer
+------------------------------------*/
+
+
+
+/* Work Experience
+------------------------------------*/
+
+
+
+/* Education
+------------------------------------*/

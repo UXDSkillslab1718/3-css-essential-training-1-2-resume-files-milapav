@@ -1,0 +1,101 @@
+/* Color Palette
+#780116 - bordo
+#F7B538 - softYellow
+#773344 - dirtyLilac
+#E3B5A4 - skinPink
+#F5E9E2 - whiteish
+#0B0014 - deepViolet
+#6B0132 - brightPurple
+
+#FF6542 - niceOrange
+#88498F - niceViolet
+#83EAB3 - turquois
+#FFE1AD - softerYellow
+*/
+
+/* Global styles
+------------------------------------*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: 'Hind Guntur', sans-serif;
+    background:white;
+    margin:0;
+}
+.col-narrow{
+  width:30%;
+  float:left;
+}
+.col-wide{
+  width:70%;
+  float:left;
+  padding-left: 40px;
+}
+
+
+h1{
+  font-family: 'Playfair Display SC', serif;
+  font-size:50px;
+}
+h2{
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+}
+h3{
+  font-weight: 500;
+}
+.content-wrap{
+  max-width: 950px;
+  margin:0 auto;
+  padding: 50px;
+  overflow:hidden;
+}
+main {
+  background:#F5E9E2;
+}
+.work{
+  background:#FFE1AD;
+}
+.education{
+  background: #FF6542;
+}
+
+h1{
+  color:#6B0132
+}
+.demo,h2{
+  color:#6B0132
+}
+#demo{
+  color:#773344
+}
+a{
+  color:#FF6542;
+}
+a:hover{
+  color:#6B0132;
+}
+
+/* Header & Footer
+------------------------------------*/
+header, footer{
+  background:#E3B5A4
+}
+footer{
+  text-align: center;
+}
+.contact-info{
+  padding: 10px;
+  display: inline-block;
+}
+
+/* Work Experience
+------------------------------------*/
+
+
+/* Education
+------------------------------------*/

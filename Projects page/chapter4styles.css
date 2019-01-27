@@ -1,0 +1,182 @@
+/* Color Palette
+#780116 - bordo
+#F7B538 - warmYellow
+#773344 - dirtyLilac
+#E3B5A4 - skinPink
+#F5E9E2 - whiteish
+#0B0014 - deepViolet
+#6B0132 - brightPurple
+
+#FF6542 - niceOrange
+#88498F - niceViolet
+#83EAB3 - turquois
+#FFE1AD - softerYellow
+*/
+
+/* Global styles
+------------------------------------*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: 'Hind Guntur', sans-serif;
+    background:white;
+    margin:0;
+}
+
+
+h1{
+  font-family: 'Playfair Display SC', serif;
+  font-size:50px;
+}
+h2{
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+}
+h3{
+  font-weight: 500;
+}
+.content-wrap{
+  max-width: 950px;
+  margin:0 auto;
+  padding: 60px 50px;
+  overflow:hidden;
+}
+
+.content-wrap1{
+  max-width: 950px;
+  margin:0 auto;
+  padding: 60px 50px;
+  overflow:auto;
+}
+
+
+main {
+  background:#F5E9E2;
+}
+.work{
+  background:#FFE1AD;
+}
+.education{
+  background: #FF6542;
+}
+.fproject{
+  background: white;
+  }
+
+
+}
+h1{
+  color:#6B0132
+}
+.demo,h2{
+  color:#6B0132
+}
+#demo{
+  color:#773344
+}
+a{
+  color:#FF6542;
+}
+a:hover{
+  color:#6B0132;
+}
+
+/* Header & Footer
+------------------------------------*/
+header, footer{
+  background:#E3B5A4
+}
+footer{
+  text-align: center;
+}
+.contact-info{
+  padding: 10px;
+  display: inline-block;
+}
+header{
+  padding-top:50px;
+  position:relative;
+}
+.download{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.btn{
+  text-decoration: none;
+  background: white;
+  padding: 10px;
+  display:inline-block;
+}
+/* Navigation
+------------------------------------*/
+nav{
+  text-align: center;
+  background: white;
+  position:fixed;
+  top:0;
+  width:100%;
+}
+nav a{
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding:15px 20px;
+  font-weight: 700;
+}
+
+/* Work Experience
+------------------------------------*/
+h3{
+  margin: 0;
+}
+h3 ~ p{
+  margin:0;
+}
+.uppercase{
+  text-transform: uppercase;
+}
+.job-descr{
+  margin-bottom: 30;
+}
+.job-descr p:first-of-type{
+margin-top: 0;
+}
+
+/* Education
+------------------------------------*/
+p + h3{
+  margin-top: 30;
+}
+.education {
+  color:white;
+  background: linear-gradient(rgba(227, 181, 164, 1), rgba(119, 51, 68, 0.8)),
+              url(The_Hague.jpg) no-repeat fixed;
+  background-size: cover;
+}
+
+/* Media Q
+------------------------------------*/
+@media(min-width: 900px){
+  .col-narrow{
+    width:30%;
+    float:left;
+  }
+  .col-wide{
+    width:70%;
+    float:left;
+    padding-left: 40px;
+  }
+}
+
+@media(max-width:899px){
+  header{
+    .profile-img{
+      width:200px;
+    }
+  }
+}
